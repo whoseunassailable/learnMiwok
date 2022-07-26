@@ -22,16 +22,16 @@ public class FamilyActivity extends AppCompatActivity {
         ArrayList<Family> relations = new ArrayList<Family>();
 
         // Populating the Family class
-        relations.add(new Family("one", "lutti"));
-        relations.add(new Family("two", "otiiko"));
-        relations.add(new Family("three", "tolookosu"));
-        relations.add(new Family("four", "oyyisa"));
-        relations.add(new Family("five", "massokka"));
-        relations.add(new Family("six", "temmokka"));
-        relations.add(new Family("seven", "kenekaku"));
-        relations.add(new Family("eight", "kawinta"));
-        relations.add(new Family("nine", "wo’e"));
-        relations.add(new Family("ten", "na’aacha"));
+        relations.add(new Family("father", "әpә"));
+        relations.add(new Family("mother", "әta"));
+        relations.add(new Family("son", "angsi"));
+        relations.add(new Family("daughter", "tune"));
+        relations.add(new Family("older brother", "taachi"));
+        relations.add(new Family("younger brother", "chalitti"));
+        relations.add(new Family("older sister", "tete"));
+        relations.add(new Family("younger sister" , "kollitti"));
+        relations.add(new Family("grandmother", "ama"));
+        relations.add(new Family("grandfather", "paapa"));
 
         // Creating a default arrayAdapter
         RelationAdapter itemsAdapter = new RelationAdapter(this, relations);
